@@ -1,0 +1,29 @@
+{
+  "hindamine": [
+    {
+      "opilane": "",
+      "punktid": 1,
+      "alamylesanded":{
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": ""
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": ""
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": ""
+        },
+        "kysimus_4": {
+          "punktid": 0.25,
+          "pohjendus": ""
+        }
+      },
+      "tagasiside" : "",
+      "ai_toenaosus_protsent": 0,
+      "ai_pohjendus": ""
+    }
+  ]
+}
