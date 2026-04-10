@@ -27,4 +27,5 @@ ENV/
 Thumbs.db
 /opilaste_tood/
 /submissions/
-.json
+*.json
+!vastus.json
