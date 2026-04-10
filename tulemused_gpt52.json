@@ -1,0 +1,679 @@
+{
+  "hindamine": [
+    {
+      "opilane": "3084208.pdf",
+      "punktid": 0.89,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Selgitab korrektselt kahe ümbriku loogikat, serverite rollide lahutamist ja lävikrüptot, väikse segadusega sõnastuses (nt „lugemisserveril ligipääs privaatvõtmele“)."
+        },
+        "kysimus_2": {
+          "punktid": 0.24,
+          "pohjendus": "Kirjeldab õigesti QR-koodi (ID + juhuarv) ja lokaalset kontrolli avaliku võtmega ning aja/katsete piirangut."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Toob välja eIDAS high ja VVK/RIA rolli, kuid Smart‑ID tehnilised mehhanismid (SplitKey/HSM, QES/QSCD) jäävad napiks."
+        },
+        "kysimus_4": {
+          "punktid": 0.25,
+          "pohjendus": "Hästi põhjendatud võrdlus ning asjakohased ründekohad (pahavara, sundimine, kontrollimise piirangud vs füüsiline manipulatsioon)."
+        }
+      },
+      "tagasiside": "Väga tugev tehniline arusaam arhitektuurist ja kontrollimisest; Smart‑ID osa võiks sisaldada konkreetsemalt QSCD/QES ja SplitKey/HSM detaile.",
+      "ai_toenaosus_protsent": 70,
+      "ai_pohjendus": "Tekst on ebatavaliselt sujuv, terminoloogiliselt tihe ja ühtlase stiiliga, mis on sageli AI-le omane."
+    },
+    {
+      "opilane": "3084222.pdf",
+      "punktid": 0.82,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Kahe ümbriku skeem ja miksimine on hästi kirjeldatud, kuid „privaatvõtmega krüpteerimine“ on sisuliselt allkirjastamine ja sõnastus ajab kihid segamini."
+        },
+        "kysimus_2": {
+          "punktid": 0.18,
+          "pohjendus": "Eraldi seadme idee ja QR-kood on olemas, kuid kirjeldus kaldub valesti „dekrüpteerimise“ poole ning juhuarvu/taaskrüpteerimise võrdlus jääb ebatäpseks."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Seadusemuudatus (VVK tehnilised nõuded/eID vahendid) ja SplitKey põhimõte on mainitud, kuid ajastus ja tehnilised detailid on osalt ebatäpsed."
+        },
+        "kysimus_4": {
+          "punktid": 0.22,
+          "pohjendus": "Toob välja nii e- kui paberhääletuse riskid ning individuaalse kontrollitavuse, kuid mõni väide (nt „hiljem valikut vaadata“) on ebaselge."
+        }
+      },
+      "tagasiside": "Hea üldpilt ja terminid on kasutuses; täpsusta kontrollimise matemaatikat (juhuarv + taaskrüpteerimine) ja erista allkirjastamist krüpteerimisest.",
+      "ai_toenaosus_protsent": 80,
+      "ai_pohjendus": "Väga korrektne, õpikut meenutav vormistus koos allikate ja ühtlase tehnilise stiiliga viitab võimalikule AI abile."
+    },
+    {
+      "opilane": "3084229.pdf",
+      "punktid": 0.68,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Õigesti kirjeldatud krüpteerimine, allkirja eemaldamine ja miksimine, kuid serverite rollid ja lävikrüpto/privaatvõtme haldus jääb lahti."
+        },
+        "kysimus_2": {
+          "punktid": 0.18,
+          "pohjendus": "Selgitab üldjoontes, et kontroll toimub krüptogrammi põhjal ja ajapiirang vähendab sundimist, kuid tehniline samm-sammuline mehhanism on napilt lahti kirjutatud."
+        },
+        "kysimus_3": {
+          "punktid": 0.12,
+          "pohjendus": "Smart‑ID osa on liiga üldine (PIN1/PIN2 mainitud), kuid puudub eIDAS high/QSCD ja konkreetne seadusemuudatus."
+        },
+        "kysimus_4": {
+          "punktid": 0.18,
+          "pohjendus": "Toob välja pahavara ja koduse surve ning paberhääletuse lihtsuse, kuid ründekohad ja järeldus on pigem üldsõnalised."
+        }
+      },
+      "tagasiside": "Põhimõte on aru saadud, aga Smart‑ID seaduslik/tehniline põhjendus ja kontrollimise täpne krüptograafiline loogika vajavad täiendamist.",
+      "ai_toenaosus_protsent": 40,
+      "ai_pohjendus": "Stiil on lihtsam ja ebaühtlasem ning leidub kordusi, mis viitab pigem inimkirjutusele."
+    },
+    {
+      "opilane": "3084248.pdf",
+      "punktid": 0.15,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.15,
+          "pohjendus": "Kahe ümbriku idee ja viimase hääle arvestamine on mainitud, kuid välise ümbriku „dekrüpteerimine“ ja muud tehnilised etapid (miksimine, võtmehaldus) on puudu/ebatäpsed."
+        },
+        "kysimus_2": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_3": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_4": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        }
+      },
+      "tagasiside": "Esimese küsimuse põhiloogika on olemas, kuid ülejäänud küsimustele vastused puuduvad.",
+      "ai_toenaosus_protsent": 20,
+      "ai_pohjendus": "Tekst on lühike ja ebatäiuslik ning ei paista olevat AI poolt „üle-optimeeritud“."
+    },
+    {
+      "opilane": "3084252.pdf",
+      "punktid": 0.77,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Kahe ümbriku skeem, segamine ja dekrüpteerimine salajase võtmega on olemas; räsist tervikluse kontekstis rääkimine on veidi üldistav."
+        },
+        "kysimus_2": {
+          "punktid": 0.15,
+          "pohjendus": "Kirjeldus on segane (lokaalne arvutamine ja „avatud hääl ei liigu“), ning QR/juhuarvu nutiseadmes taaskrüpteerimise kontroll ei tule korrektselt välja."
+        },
+        "kysimus_3": {
+          "punktid": 0.22,
+          "pohjendus": "eIDAS kõrge tase ja SplitKey koostöö on tehniliselt asjakohaselt välja toodud."
+        },
+        "kysimus_4": {
+          "punktid": 0.18,
+          "pohjendus": "Toob välja pahavara ja korduvhääletamise leevenduse, kuid võrdlus paberhääletuse riskidega on kohati vastuoluline ja üldine."
+        }
+      },
+      "tagasiside": "Hea Q1/Q3, kuid Q2 vajab tehniliselt korrektsemat seletust (juhuarv + taaskrüpteerimine nutiseadmes) ja Q4 võiks selgemalt ründepunkte struktureerida.",
+      "ai_toenaosus_protsent": 50,
+      "ai_pohjendus": "Tekst on kohati tehniline, kuid sisaldab ka inimlikke ebatäpsusi ja stiilimuutusi."
+    },
+    {
+      "opilane": "3084254.pdf",
+      "punktid": 0.83,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Väga korralik kahe ümbriku, offline-lugemisserveri ja miksimise kirjeldus koos ajalooviitega."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "QR-kood, kontrollpäring ja ajapiirang on olemas, kuid „salajane tunnistajanumber“ on ebaselgelt sõnastatud ja mehhanism jääb osalt umbmääraseks."
+        },
+        "kysimus_3": {
+          "punktid": 0.22,
+          "pohjendus": "Toob välja 2024 seadusemuudatuse, eIDAS high ja erinevuse riistvaralise võtme hoidmisega; TEE väide võib olla liiga kindel/üldistav."
+        },
+        "kysimus_4": {
+          "punktid": 0.17,
+          "pohjendus": "Üldine riskivõrdlus on olemas, kuid järeldus on veidi laialivalguv ja ründekohad (nt serveri- vs kliendiriskid) võiks olla konkreetsemalt loetletud."
+        }
+      },
+      "tagasiside": "Hea tehniline selgitus ja mõistete kasutus; Q4 ja Q2 võiks veel täpsustada konkreetsete ründestsenaariumide ja kontrollimise matemaatika osas.",
+      "ai_toenaosus_protsent": 75,
+      "ai_pohjendus": "Tekst on väga struktureeritud ja detailne, kasutades „õigeid“ termineid ühtlases toonis."
+    },
+    {
+      "opilane": "3084258.pdf",
+      "punktid": 0.8,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Selgitab arusaadavalt ümbriku-analogia ja allkirja eemaldamise loogika, kuigi jätab mixneti/lävikrüpto mainimata."
+        },
+        "kysimus_2": {
+          "punktid": 0.16,
+          "pohjendus": "Õige mõte (salajast võtit telefonil pole), kuid kirjeldus on osaliselt väär (kontroll ei ole pelgalt räsi võrdlus ning nutiseade näitab tegelikult valikut)."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "eIDAS high vajadus ja auditite idee on olemas, kuid seadusemuudatus ja Smart‑ID tehnilised detailid võiks olla konkreetsemad."
+        },
+        "kysimus_4": {
+          "punktid": 0.22,
+          "pohjendus": "Hea riskide võrdlus (pahavara, serverirünne, SIM-swap) ja põhjendus, et riskiprofiil on erinev."
+        }
+      },
+      "tagasiside": "Hea arusaadavus ja head näited, kuid Q2 tehniline kontrollimise kirjeldus vajab täpsust (juhuarv + taaskrüpteerimine, mitte ainult räsi).",
+      "ai_toenaosus_protsent": 60,
+      "ai_pohjendus": "Tekst on sujuv ja analoogiad on „õpikud“, kuid sees on ka inimlikke lihtsustusi ja ebatäpsusi."
+    },
+    {
+      "opilane": "3084263.pdf",
+      "punktid": 0.76,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.21,
+          "pohjendus": "Kahe ümbriku skeem ja serverite rollid on selged, kuid allkirjastamist kirjeldatakse kui teistkordset krüpteerimist privaatvõtmega."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Põhimõte (juhuarv + taaskrüpteerimine ja võrdlus) on enam-vähem õige, kuid sõnastus „dekrüpteerida proovides avalikku võtit“ on ebatäpne."
+        },
+        "kysimus_3": {
+          "punktid": 0.18,
+          "pohjendus": "Seadusemuudatus ja eIDAS kõrge tase on mainitud, kuid Smart‑ID konkreetne turvamudel (SplitKey/HSM/QSCD) jääb napiks."
+        },
+        "kysimus_4": {
+          "punktid": 0.17,
+          "pohjendus": "Riskikohad on välja toodud, kuid väide „lahenduseks on tulemuste tühistamine“ ei ole turvameede ning põhjendus jääb kohati segaseks."
+        }
+      },
+      "tagasiside": "Hea põhiskeem on olemas; täpsusta allkirjastamist vs krüpteerimist ja kirjuta Q4-s ründekohad/leetmed konkreetsemalt lahti.",
+      "ai_toenaosus_protsent": 55,
+      "ai_pohjendus": "Tekst on tehniline, kuid sisaldab mitmeid ebatäpseid formulatsioone, mis on levinud ka inimkirjutuses."
+    },
+    {
+      "opilane": "3084266.pdf",
+      "punktid": 0.69,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.23,
+          "pohjendus": "Lühidalt, kuid õigesti mainitud krüpteerimine, mixnet ja lävikrüpto, mis seose valija-hääl eemaldavad."
+        },
+        "kysimus_2": {
+          "punktid": 0.12,
+          "pohjendus": "Keskendub ajapiirangule ja seadmes jälje mittejätmisele, kuid puudu on QR-koodi juhuarvu ja taaskrüpteerimise tehniline loogika."
+        },
+        "kysimus_3": {
+          "punktid": 0.18,
+          "pohjendus": "Seaduse „kõrge usaldustasemega eID“ ja eIDAS viide on õige, kuid tehniline Smart‑ID detail (SplitKey/HSM/QSCD) on väga üldine."
+        },
+        "kysimus_4": {
+          "punktid": 0.16,
+          "pohjendus": "Toob välja kontrollitavuse ja pahavara/PINide riski, kuid võrdlus paberhääletusega ja ründestsenaariumid jäävad lühikeseks."
+        }
+      },
+      "tagasiside": "Põhiideed on õiged, kuid Q2 ja Q4 vajavad rohkem sisulist tehnilist seletust ja konkreetseid ründeid/leevendusi.",
+      "ai_toenaosus_protsent": 45,
+      "ai_pohjendus": "Vastus on lakooniline ja kohati õpikulik, kuid mitte ülemäära poleeritud."
+    },
+    {
+      "opilane": "3084272.pdf",
+      "punktid": 0.84,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Kirjeldab õigesti krüpteerimist, allkirjastamist ja identiteedi eemaldamist enne dekrüpteerimist, kuid mixnet/lävikrüpto pole mainitud."
+        },
+        "kysimus_2": {
+          "punktid": 0.22,
+          "pohjendus": "Väga hea juhuarvu/QR ja taaskrüpteerimise-võrdluse seletus ning nutiseade kui sõltumatu kontrollkanal."
+        },
+        "kysimus_3": {
+          "punktid": 0.22,
+          "pohjendus": "eIDAS high, SplitKey ja HSM roll on hästi lahti kirjutatud ning seos seadusemuudatusega on loogiline."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Hea riskide võrdlus ja ründekohad (pahavara, inimlikud vead), kuigi väide „pole tuvastatud probleeme“ on liiga absoluutne."
+        }
+      },
+      "tagasiside": "Väga tugev Q2/Q3 tehniline osa; Q1 võiks lisada miksimise/lävikrüpto ning Q4-s vältida absoluutseid väiteid.",
+      "ai_toenaosus_protsent": 65,
+      "ai_pohjendus": "Tekst on ühtlaselt tehniline ja hästi sõnastatud, kuid mitte täiesti „perfektne“."
+    },
+    {
+      "opilane": "3084283.pdf",
+      "punktid": 0.5,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Kahe serveri ja offline-lugemise idee on olemas ning selgitab privaatvõtme puudumist esimeses serveris."
+        },
+        "kysimus_2": {
+          "punktid": 0.08,
+          "pohjendus": "Kontrollimise kohta on väga üldine jutt (rakendus, võtmed, miksimine) ilma QR/juhuarvu ja lokaalse kontrolli mehhanismita."
+        },
+        "kysimus_3": {
+          "punktid": 0.07,
+          "pohjendus": "Smart‑ID põhjendus on sisuliselt mööda (OS-ide määramine jne) ning puuduvad eIDAS high/QSCD ja konkreetne seadusemuudatus."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Toob mõned ründekohad (võtmete vargus, andmekandja), kuid analüüs on lühike ja kliendiseadme/pahavara teema jääb puudu."
+        }
+      },
+      "tagasiside": "Q1 põhiskeem on arusaadav, kuid Q2–Q3 tehniline ja seadusandlik sisu vajab oluliselt täpsemat ja teemakohasemat selgitust.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Vastused on ebaühtlased ja sisaldavad teemast möödarääkimist, mis on pigem inimlik."
+    },
+    {
+      "opilane": "3084299.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.23,
+          "pohjendus": "Kahe ümbriku skeem ja võtme jagamine on hästi selgitatud, väikese üldistusega protsessi ajastuse osas."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "QR, „sool“/juhuarv ja lokaalsete kontrollide idee on olemas, kuigi osa ohumudeleid (sidekanal/kolmandad osapooled) on liiga üldine."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "SplitKey tehniline kirjeldus on hea, kuid väide QSCD taseme kohta 2018 ja järeldus „seega saab e-hääletada“ vajaks täpsemat sidumist eIDAS high ja valimisseaduse muutusega."
+        },
+        "kysimus_4": {
+          "punktid": 0.22,
+          "pohjendus": "Väga hea võrdlus (globaalne vs lokaalne ründeulatus, hääle ostmine, erinevad ohud) ja tasakaalustatud järeldus."
+        }
+      },
+      "tagasiside": "Sisukas ja tehniliselt küps analüüs; Smart‑ID ajaloolised detailid ja juriidiline seos eIDAS high tasemega võiks olla täpsem.",
+      "ai_toenaosus_protsent": 75,
+      "ai_pohjendus": "Tekst on väga poleeritud, struktureeritud ja kasutab korrektseid termineid järjepidevalt."
+    },
+    {
+      "opilane": "3084300.pdf",
+      "punktid": 0.68,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.23,
+          "pohjendus": "Korrektselt kirjeldatud kahe ümbriku skeem, mixnet ja lävikrüpto ning offline-andmekandja."
+        },
+        "kysimus_2": {
+          "punktid": 0.18,
+          "pohjendus": "Eraldi seade, QR ja ajapiirang on mainitud, kuid tehniline kontroll (juhuarv + taaskrüpteerimine) jääb ebamääraseks ja „kaks krüpteeritud jälge“ on liiga üldine."
+        },
+        "kysimus_3": {
+          "punktid": 0.17,
+          "pohjendus": "Split‑key on mainitud, kuid seadusemuudatus/eIDAS high/QSCD aspektid on liiga üldsõnalised."
+        },
+        "kysimus_4": {
+          "punktid": 0.1,
+          "pohjendus": "Põhjendus on peamiselt arvamuslik ja ei too sisuliselt välja konkreetseid ründekohti peale üldise „võib-olla saab rikkuda“."
+        }
+      },
+      "tagasiside": "Tehniline kirjeldus Q1 on väga hea; Q4 vajab konkreetseid ründestsenaariume (pahavara, sundimine, serveririskid, DDoS jne) ja selgemat argumentatsiooni.",
+      "ai_toenaosus_protsent": 55,
+      "ai_pohjendus": "Mõned osad on tehnilised, kuid järeldus on üsna üldine ja ebaühtlase kvaliteediga."
+    },
+    {
+      "opilane": "3084316.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Väga detailne kirjeldus (krüpteerimine, allkirjastamine, mixnet, logid, lävikrüpto ja serverite rollid) ning üldjoontes korrektne."
+        },
+        "kysimus_2": {
+          "punktid": 0.15,
+          "pohjendus": "Kirjeldab QR-koodi ja võrdlust, kuid ei selgita selgelt juhuarvu/taaskrüpteerimise kontrolli ning väidab ebamääraselt, et täielikku kaitset pole."
+        },
+        "kysimus_3": {
+          "punktid": 0.23,
+          "pohjendus": "Toob välja 2024 seadusemuudatuse, QSCD/eIDAS ning SplitKey ja HSM kasutuse, kuigi lisab ka veidi ebaolulisi detaile (PIN pikkused)."
+        },
+        "kysimus_4": {
+          "punktid": 0.23,
+          "pohjendus": "Hea ja konkreetne riskianalüüs (USB/DVD näide, võtmehoidjate lävi, kasutaja viitsimine kontrollida, pahavara) ning põhjendatud järeldus."
+        }
+      },
+      "tagasiside": "Sisukas ja argumenteeritud vastus; Q2 tehniline kontrollimismehhanism vajab korrektsemat ja konkreetsemat lahtikirjutust.",
+      "ai_toenaosus_protsent": 70,
+      "ai_pohjendus": "Vastus on väga pikk, viideterohke ja ühtlase tehnilise tooniga, mis võib viidata AI kasutamisele."
+    },
+    {
+      "opilane": "3084332.pdf",
+      "punktid": 0.6,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Kahe ümbriku skeem, eraldi serverid ja lävikrüpto mõte on õigesti kirjeldatud, kuigi mõni väljend (nt „eemaldatakse isiku privaatvõti“) on ebatäpne."
+        },
+        "kysimus_2": {
+          "punktid": 0.18,
+          "pohjendus": "Juhuarv/QR ja taaskrüpteerimise-võrdluse idee on olemas, kuid seletus räsiga on kohati segane."
+        },
+        "kysimus_3": {
+          "punktid": 0.14,
+          "pohjendus": "Mainib seadusemuudatust ja eIDAS QES, kuid lisab ka kaheldavaid/ebaselgeid väiteid (nt ECC üleminek ja TARA integratsioon) ilma sidumiseta valimiste tegeliku protsessiga."
+        },
+        "kysimus_4": {
+          "punktid": 0.06,
+          "pohjendus": "Arvamus on väga üldine ja ründekohad/ põhjendus praktiliselt puuduvad."
+        }
+      },
+      "tagasiside": "Tehniline põhiskeem on olemas, kuid Smart‑ID osa sisaldab ebaselgeid väiteid ja Q4 vajab sisulist riskianalüüsi ründekohtadega.",
+      "ai_toenaosus_protsent": 60,
+      "ai_pohjendus": "Sõnastus on kohati „referaatlik“, kuid esineb ka ebatäpseid ja juhuslikke tehnilisi väiteid."
+    },
+    {
+      "opilane": "3084333.pdf",
+      "punktid": 0.81,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.23,
+          "pohjendus": "Väga hea kahe ümbriku selgitus ja isikuandmete eemaldamise mõte enne lugemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.19,
+          "pohjendus": "QR-koodiga kontrolli üldloogika on õige, kuid detailid (räsi/„täiesti anonüümne päring“) on osalt ebatäpsed või liiga kindlalt väidetud."
+        },
+        "kysimus_3": {
+          "punktid": 0.18,
+          "pohjendus": "Õigesti mainitud eIDAS high ja Split‑Key, kuid seadusandluse kirjeldus kaldub m-hääletamise/nutirakenduse teemale, mis ei ole küsimuse fookus."
+        },
+        "kysimus_4": {
+          "punktid": 0.21,
+          "pohjendus": "Hea võrdlus ründekohaga (pahavara, DDoS) ja paberhääletuse riskid, kuid väide et revote „nullib“ häälte ostmise/sundimise on liiga absoluutne."
+        }
+      },
+      "tagasiside": "Üldiselt tugev vastus, kuid Q3-s hoia fookus Smart‑ID eIDAS/QSCD ja valimisseaduse volitusmuudatuse tehnilisel mõjul ning väldi liialt absoluutseid turvaväiteid.",
+      "ai_toenaosus_protsent": 80,
+      "ai_pohjendus": "Väga ladus, pikk ja väideterohke tekst koos kindla tooniga viitab AI abile."
+    },
+    {
+      "opilane": "3084340.pdf",
+      "punktid": 0.68,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Kahe ümbriku skeem ja identiteedi eraldamine enne dekrüpteerimist on korrektselt seletatud."
+        },
+        "kysimus_2": {
+          "punktid": 0.14,
+          "pohjendus": "Mainib QR-koodi, lokaalsust ja ajapiirangut, kuid puudub selge tehniline mehhanism (juhuarv + taaskrüpteerimine)."
+        },
+        "kysimus_3": {
+          "punktid": 0.19,
+          "pohjendus": "eIDAS high ja QSCD/2FA on mainitud ning seaduse „samaväärsed eID vahendid“ idee olemas, kuid tehniline detail jääb üldiseks."
+        },
+        "kysimus_4": {
+          "punktid": 0.13,
+          "pohjendus": "Võrdlus on olemas, kuid ründekohad ja põhjendused on napid ning lause „pisiõhtudega“ viitab ebaselgele kokkuvõttele."
+        }
+      },
+      "tagasiside": "Hea Q1/Q3, kuid Q2 ja Q4 vajavad konkreetsemaid samme ja ründestsenaariume (pahavara, sundimine, serveri rünne, protseduuririskid).",
+      "ai_toenaosus_protsent": 55,
+      "ai_pohjendus": "Tekst on tehniline, kuid kohati ebatäpse sõnastusega ja ebaühtlase kvaliteediga."
+    },
+    {
+      "opilane": "3084345.pdf",
+      "punktid": 0.9,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Kahe ümbriku ja kahe serveri eristus ning offline-andmekandja on korrektselt kirjeldatud, kuigi võiks mainida ka miksimist/lävikrüptot."
+        },
+        "kysimus_2": {
+          "punktid": 0.22,
+          "pohjendus": "Väga hea selgitus, et kontrollimine on kompromiss: avastab pahavara, kuid ei anna tugevat tõendit kolmandale osapoolele."
+        },
+        "kysimus_3": {
+          "punktid": 0.23,
+          "pohjendus": "Toob konkreetselt välja 2024 volituse VVK-le, eIDAS high nõude ning Smart‑ID kasutusloogika (PIN1/PIN2 ja kontrollkood)."
+        },
+        "kysimus_4": {
+          "punktid": 0.23,
+          "pohjendus": "Hästi põhjendatud, toob välja peamised ründekohad (pahavara, võltsitud rakendus, protseduurivead) ja selge järelduse riskierinevuse kohta."
+        }
+      },
+      "tagasiside": "Väga tugev ja tasakaalukas tehniline arutelu; Q1 võiks lisaks rõhutada miksimise/lävikrüpto rolli, kuid muus osas väga hea.",
+      "ai_toenaosus_protsent": 75,
+      "ai_pohjendus": "Vastus on väga koherentne, terminoloogiliselt korrektne ja „valmis esseena“ vormistatud."
+    },
+    {
+      "opilane": "3084356.pdf",
+      "punktid": 0.64,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.14,
+          "pohjendus": "Kirjeldab identiteedi ja hääle eraldamist ning avaliku võtmega krüpteerimist, kuid kahe ümbriku/serverite protsess ja miksimine/lävikrüpto jäävad puudu."
+        },
+        "kysimus_2": {
+          "punktid": 0.16,
+          "pohjendus": "Eraldi seade ja ajapiirang ning „ei salvesta“ idee on olemas, kuid puudub tehniline seletus QR/juhuarvu kontrolli kohta."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "SplitKey, HSM ja PINid on tehniliselt asjakohased, kuid seadusemuudatuse/eIDAS high sidumine on üldsõnaline."
+        },
+        "kysimus_4": {
+          "punktid": 0.14,
+          "pohjendus": "Toob välja paberhääletuse inimfaktori ja e-hääletuse seadmeriski, kuid järeldus „ainult jaoskonnas ID-kaardiga“ on vastuolus e-hääletuse mõistega ja argumentatsioon jääb segaseks."
+        }
+      },
+      "tagasiside": "Mõisted on olemas, kuid Q1/Q2 vajavad konkreetset protsessi (ümbrikud, serverid, miksimine) ning järeldused võiks olla kooskõlas e-hääletamise olemusega.",
+      "ai_toenaosus_protsent": 95,
+      "ai_pohjendus": "Lisatud link sisaldab utm_source=chatgpt.com ning tekst on stiililt väga AI-le viitav."
+    },
+    {
+      "opilane": "3084359.pdf",
+      "punktid": 0.8,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Väga hea kahe ümbriku, serverite rollide ja mixnet/ElGamal ümberkrüpteerimise seletus."
+        },
+        "kysimus_2": {
+          "punktid": 0.19,
+          "pohjendus": "Selgitab juhuarvu/QR kontrolli ja revote/paberiga tühistamist, kuid „päring räsi järgi“ on ebatäpne."
+        },
+        "kysimus_3": {
+          "punktid": 0.16,
+          "pohjendus": "Seadusemuudatus ja eIDAS high nõue on mainitud, kuid Smart‑ID turvamehhanismid (SplitKey/HSM/QSCD) jäävad kirjeldamata."
+        },
+        "kysimus_4": {
+          "punktid": 0.21,
+          "pohjendus": "Hea tasakaalustatud analüüs läbipaistvuse, auditeeritavuse ja eri ründepindadega, kuigi mõni väide „rahvusvahelised eksperdid“ jääb viitamata."
+        }
+      },
+      "tagasiside": "Tehniliselt tugev Q1 ja hea üldanalüüs; Q3 vajab konkreetset Smart‑ID (SplitKey, QSCD/QES, eIDAS high) tehnilist kirjeldust.",
+      "ai_toenaosus_protsent": 65,
+      "ai_pohjendus": "Tekst on üsna tehniline ja hästi struktureeritud, kuid sisaldab ka isiklikke ebakindlaid kohti, mis võib viidata segakasutusele."
+    },
+    {
+      "opilane": "3084373.pdf",
+      "punktid": 0.68,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Kahe serveri/kahe ümbriku loogika ja krüpteerimine-allkirjastamine on üldjoontes õigesti selgitatud."
+        },
+        "kysimus_2": {
+          "punktid": 0.12,
+          "pohjendus": "Kontrollimise seletus on liiga üldine ega kirjelda QR-koodi, juhuarvu ja lokaalset taaskrüpteerimise-võrdluse loogikat."
+        },
+        "kysimus_3": {
+          "punktid": 0.18,
+          "pohjendus": "VVK volituse muutus ja Smart‑ID kõrge usaldustase on mainitud, kuid puuduvad konkreetsed tehnilised detailid (SplitKey/HSM/QSCD)."
+        },
+        "kysimus_4": {
+          "punktid": 0.18,
+          "pohjendus": "Toob välja nii e-hääletuse (pahavara, infra rünne) kui paberhääletuse (inimfaktor) riskid, kuid argumentatsioon jääb lühikeseks."
+        }
+      },
+      "tagasiside": "Põhiskeem on olemas, kuid Q2 ja Q3 vajavad oluliselt konkreetsemat tehnilist kirjeldust (QR+juhuarv ja Smart‑ID SplitKey/QSCD).",
+      "ai_toenaosus_protsent": 40,
+      "ai_pohjendus": "Tekst on ebaühtlane ja sisaldab praktilisi, kuid lihtsaid soovitusi, mis paistab pigem inimkirjutusena."
+    },
+    {
+      "opilane": "3084382.pdf",
+      "punktid": 0.87,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.23,
+          "pohjendus": "Korrektselt kirjeldatud kahe ümbriku skeem, võtme jagamine ja miksimine enne avamist."
+        },
+        "kysimus_2": {
+          "punktid": 0.21,
+          "pohjendus": "Juhuarv ja lokaalne kontroll on hästi välja toodud, kuigi „dekrüpteerimine nutiseadmes“ on ebatäpne väljend (tegelikult tuvastatakse valik taaskrüpteerimise teel)."
+        },
+        "kysimus_3": {
+          "punktid": 0.21,
+          "pohjendus": "Seadusemuudatus ja QES/QSCD ning SplitKey loogika on tehniliselt ja juriidiliselt arusaadavalt seotud."
+        },
+        "kysimus_4": {
+          "punktid": 0.22,
+          "pohjendus": "Väga hea riskivõrdlus ja ründekohad (pahavara, DDoS, sotsiaalne insenerlus vs paber sedelite manipulatsioon) ning põhjendus kontrollitavuse eelisest."
+        }
+      },
+      "tagasiside": "Üldiselt väga tugev; Q2-s tasub sõnastada, et kontroll ei kasuta valimiste salajast võtit, vaid tuletab valiku taaskrüpteerimise abil.",
+      "ai_toenaosus_protsent": 75,
+      "ai_pohjendus": "Tekst on väga tehniline, koherentne ja esseelikult põhjendatud, mis on AI-le sageli omane."
+    },
+    {
+      "opilane": "3084388.pdf",
+      "punktid": 0.84,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Väga korralik kirjeldus (ümbrikud, mixnet/ElGamal, lävikrüpto) ja seose eemaldamise loogika."
+        },
+        "kysimus_2": {
+          "punktid": 0.22,
+          "pohjendus": "QR-kood, lokaalne kuvamine ja „ei jää tõendit“ kompromiss on selgelt välja toodud."
+        },
+        "kysimus_3": {
+          "punktid": 0.15,
+          "pohjendus": "Seadusemuudatus on õigesti mainitud, kuid turvaosa sisaldab küsitavaid väiteid (2019 intsidentide seos ja ECC „lisamine“) ning eIDAS high/QSCD side võiks olla täpsem."
+        },
+        "kysimus_4": {
+          "punktid": 0.23,
+          "pohjendus": "Hea tasakaalustatud analüüs auditeeritavusest, pahavarast, skaleeritavusest ja paberhääletuse lokaalsusest."
+        }
+      },
+      "tagasiside": "Väga tugev üldpilt; Smart‑ID turvamuutuste osas väldi ebakindlaid ajaloolisi väiteid ja keskendu eIDAS high/QSCD ning SplitKey tehnilisele põhjendusele.",
+      "ai_toenaosus_protsent": 70,
+      "ai_pohjendus": "Vastus on tehniliselt korrektne ja väga sujuv, kuigi sisaldab mõningaid kaheldavaid detaile."
+    },
+    {
+      "opilane": "3084401.pdf",
+      "punktid": 0.95,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.24,
+          "pohjendus": "Väga täpne kahe ümbriku, võtmehalduri läve ja serverite eristuse kirjeldus."
+        },
+        "kysimus_2": {
+          "punktid": 0.24,
+          "pohjendus": "QR-koodi ID+juhuarvu ning lokaalse kontrolli ja piiratud aja/katsete loogika on korrektselt ja detailselt lahti seletatud."
+        },
+        "kysimus_3": {
+          "punktid": 0.23,
+          "pohjendus": "Seadusemuudatus „samaväärne eID eIDAS high“ ja Smart‑ID QSCD/eIDAS seos on hästi põhjendatud; mõni ajaline detail on teisene."
+        },
+        "kysimus_4": {
+          "punktid": 0.24,
+          "pohjendus": "Väga hea võrdlus (kontrollitavus, pahavara, sundimine, skaleeritavus) ja tasakaalustatud järeldus pideva auditi vajadusega."
+        }
+      },
+      "tagasiside": "Väga tugev ja tehniliselt küps vastus kõigis neljas punktis; jätka samas stiilis (konkreetne, riskid ja leevendused selgelt eristatud).",
+      "ai_toenaosus_protsent": 80,
+      "ai_pohjendus": "Tekst on erakordselt viimistletud, järjepidevalt tehniline ja hästi struktureeritud."
+    },
+    {
+      "opilane": "3084403.pdf",
+      "punktid": 0.0,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_2": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_3": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_4": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        }
+      },
+      "tagasiside": "Failis ei ole vastuseid esitatud küsimustele.",
+      "ai_toenaosus_protsent": 0,
+      "ai_pohjendus": "Vastustekst puudub, seega AI päritolu ei ole hinnatav."
+    },
+    {
+      "opilane": "3084408.pdf",
+      "punktid": 0.47,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.12,
+          "pohjendus": "Mainib krüpteerimist avaliku võtmega ja seose eemaldamist, kuid kahe ümbriku/allkirja ja serverite lahutuse tehniline kirjeldus on puudu."
+        },
+        "kysimus_2": {
+          "punktid": 0.08,
+          "pohjendus": "Vastus on liiga lühike ja ebatäpne (telefon „ei saa valikut teada“) ilma QR/juhuarvu ja lokaalse kontrolli mehhanismita."
+        },
+        "kysimus_3": {
+          "punktid": 0.12,
+          "pohjendus": "SplitKey idee on mainitud, kuid puuduvad eIDAS high/QSCD ning seadusemuudatuse sisu."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Toob välja pahavara ja sundimise ning paberhääletuse võltsimise riski, kuid ründekohad ja põhjendus jäävad üldiseks."
+        }
+      },
+      "tagasiside": "Üldine arusaam on olemas, kuid vaja on oluliselt rohkem tehnilisi detaile igas punktis (ümbrikud/allkiri, serverite rollid, QR+juhuarv, eIDAS high ja seadusemuudatus).",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on lihtne ja lühike ning ei sisalda AI-le tüüpilist väga poleeritud detailirohkust."
+    },
+    {
+      "opilane": "3084409.pdf",
+      "punktid": 0.84,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.22,
+          "pohjendus": "Korrektselt kirjeldatud ümbriku metafoor, krüpteerimine ja allkirja eemaldamine enne salajase võtmega avamist."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "QR-koodiga kontroll ja eraldi seadme mõte on õigesti selgitatud, kuigi detail „telefon ei tea salajast võtit“ võiks olla seotud täpse taaskrüpteerimise võrdlusega."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "QSCD nõuded ja seadusemuudatuse vajadus on loogiliselt selgitatud ning SplitKey turvaidee on olemas."
+        },
+        "kysimus_4": {
+          "punktid": 0.22,
+          "pohjendus": "Hea võrdlus paberhääletuse füüsiliste riskide ja e-hääletuse pahavara/auditeeritavuse vahel ning arusaadav järeldus."
+        }
+      },
+      "tagasiside": "Väga korralik ja arusaadav tervik; Q2-s võiks täpsemalt kirjeldada, et kontroll toimub juhuarvu abil taaskrüpteerides ja võrreldes krüptogrammiga.",
+      "ai_toenaosus_protsent": 70,
+      "ai_pohjendus": "Tekst on sujuv, terminoloogiliselt korrektne ja hästi struktureeritud, mis võib viidata AI toele."
+    }
+  ]
+}

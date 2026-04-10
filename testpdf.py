@@ -25,8 +25,8 @@ for subdir in os.scandir(SUBMISSIONS_DIR):
 
 result = {}
 
-# Matches "14.4", "14-4", or "4." (standalone, not part of 14.1/14.2/14.3 etc.)
-PATTERN = re.compile(r'(?:14[-.]4\b|(?<!\d)4\.(?!\d))')
+# Matches "9.4", "9-4", or "4." (standalone, not part of 9.1/9.2/9.3 etc.)
+PATTERN = re.compile(r'(?:9[-.]4\b|(?<!\d)4\.(?!\d))')
 
 for pdf_path in glob.glob(os.path.join(OUTPUT_DIR, "*.pdf")):
     pages_text = []
@@ -36,13 +36,14 @@ for pdf_path in glob.glob(os.path.join(OUTPUT_DIR, "*.pdf")):
             text = page.extract_text()
             if not text or not text.strip():
                 continue
-            if not found:
-                match = PATTERN.search(text)
-                if match:
-                    found = True
-                    pages_text.append(text[match.start():])
-            else:
-                pages_text.append(text)
+            pages_text.append(text)
+            #if not found:
+            #     match = PATTERN.search(text)
+            #     if match:
+            #         found = True
+            #         pages_text.append(text[match.start():])
+            #else:
+            #     pages_text.append(text)
     result[os.path.basename(pdf_path)] = pages_text
 
 with open("test.json", "w", encoding="utf-8") as f:

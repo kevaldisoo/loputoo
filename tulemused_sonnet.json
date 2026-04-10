@@ -1,0 +1,679 @@
+{
+  "hindamine": [
+    {
+      "opilane": "3084208.pdf",
+      "punktid": 1.0,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga põhjalik ja täpne kirjeldus kahe ümbriku süsteemist, krüpteerimisest ning lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne selgitus QR-koodi mehhanismist ja lokaalsest dekrüpteerimisest, hääle salajasuse säilitamisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Konkreetsed seadusandlikud muudatused ja eIDAS kõrge taseme nõuded on selgelt välja toodud."
+        },
+        "kysimus_4": {
+          "punktid": 0.25,
+          "pohjendus": "Tasakaalustatud analüüs mõlema süsteemi riskidest, konkreetsed ründekohad ja realistlik hinnang."
+        }
+      },
+      "tagasiside": "Suurepärane töö! Kõik küsimused said põhjalikud ja tehniliselt täpsed vastused. Õpilane on teemast hästi aru saanud.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on struktureeritud ja professionaalne, kuid sisaldab isiklikke hinnanguid ning viiteid allikatele, mis viitab inimlikule käekirjale."
+    },
+    {
+      "opilane": "3084222.pdf",
+      "punktid": 1.0,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist, miksimisest ja serverite eraldatusest."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Selge selgitus QR-koodi kasutamisest, lokaalsest dekrüpteerimisest ja andmete mitte-säilitamisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Konkreetsed viited seadusmuudatusele ja võtmete jagamise süsteemile Smart-ID puhul."
+        },
+        "kysimus_4": {
+          "punktid": 0.25,
+          "pohjendus": "Tasakaalustatud analüüs läbipaistvusest, riskidest ja konkreetsed näited mõlema süsteemi nõrkustest."
+        }
+      },
+      "tagasiside": "Väga hea töö! Kõik aspektid on kaetud ja allikad on korrektselt märgitud. Selge arusaam e-valimiste turvalisusest.",
+      "ai_toenaosus_protsent": 20,
+      "ai_pohjendus": "Tekst sisaldab isiklikke hinnanguid ja allikaviiteid, mis on tüüpiline inimese loodud tööle."
+    },
+    {
+      "opilane": "3084229.pdf",
+      "punktid": 0.6,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.15,
+          "pohjendus": "Põhiidee on olemas, kuid puuduvad detailid serveri rollidest ja lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.15,
+          "pohjendus": "Üldine mõistmine on olemas, kuid tehnilised detailid (juhuarv, lokaalne dekrüpteerimine) on puudulikud."
+        },
+        "kysimus_3": {
+          "punktid": 0.15,
+          "pohjendus": "Mainitakse PIN-koode ja eIDAS-e, kuid puudub täpsus SplitKey tehnoloogia ja sertifitseerimise kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Üldine arutlus on olemas, kuid konkreetsed ründekohad on eraldi punktis 5 ja puudulik integratsioon."
+        }
+      },
+      "tagasiside": "Põhimõisted on mõistetud, kuid vastused võiksid olla tehniliselt detailsemad ja täpsemad. Püüa tuua välja konkreetsemaid mehhanisme.",
+      "ai_toenaosus_protsent": 40,
+      "ai_pohjendus": "Tekst on lihtsustatud ja üldine, kuid sisaldab isiklikke hinnanguid, mis viitab osalisele AI kasutamisele või lihtsustatud käsitlusele."
+    },
+    {
+      "opilane": "3084248.pdf",
+      "punktid": 0.15,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.15,
+          "pohjendus": "Väga lühike ja ebatäpne kirjeldus, puuduvad tehnilised detailid serverite rollidest ja krüpteerimisest."
+        },
+        "kysimus_2": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_3": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_4": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        }
+      },
+      "tagasiside": "Töö on väga puudulik, vastatud ainult osaliselt esimesele küsimusele. Palun vasta kõikidele küsimustele ja kasuta tehnilisi mõisteid.",
+      "ai_toenaosus_protsent": 10,
+      "ai_pohjendus": "Väga lühike tekst ilma AI-le iseloomuliku ülesehituseta, tundub kui kiire inimese kirjutatud vastus."
+    },
+    {
+      "opilane": "3084252.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist, miksimisest ja räsi kasutamisest tervikluse tagamiseks."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus lokaalsest arvutamisest ja krüpteeritud hääle kasutamisest, kuid võiks olla detailsem juhuarvu rolli osas."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse RIA otsust ja SplitKey tehnoloogiat, kuid võiks olla täpsem eIDAS taseme kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev, kuid mõned vastused võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja tehniliselt täpne, kuid sisaldab isiklikke hinnanguid, mis viitab osalisele AI toele."
+    },
+    {
+      "opilane": "3084254.pdf",
+      "punktid": 0.9,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Selge ja täpne kirjeldus kahe ümbriku süsteemist, miksimisest ja eraldi andmekandjast."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Hea selgitus QR-koodi mehhanismist ja salajase tunnistaja numbri kasutamisest, privaatsuse säilitamisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja eIDAS kõrget taset, kuid võiks olla täpsem TEE ja tehniliste detailide osas."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Hea analüüs, kuid võiks tuua välja rohkem konkreetseid näiteid ründekohtadest ja nende tõenäosusest."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline arusaam on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on selge ja loogiline, sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084258.pdf",
+      "punktid": 0.7,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea analoogia ümbriku ja krüpteerimisega, kuid puuduvad detailid miksimisest ja lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selgitus räsi kasutamisest on olemas, kuid lokaalne dekrüpteerimine ja QR-koodi täpne mehhanism võiks olla täpsem."
+        },
+        "kysimus_3": {
+          "punktid": 0.15,
+          "pohjendus": "Mainitakse kõrget taset ja sertifikaati, kuid puuduvad tehnilised detailid SplitKey ja QSCD kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Huvitav analüüs riskiprofiilide kohta, kuid võiks olla konkreetsemaid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Hea töö! Põhimõtted on mõistetud ja analüüs on huvitav. Püüa tuua välja rohkem tehnilisi detaile ja konkreetseid mehhanisme.",
+      "ai_toenaosus_protsent": 35,
+      "ai_pohjendus": "Tekst on isikupärane ja sisaldab analoogaid, kuid struktureeritus viitab võimalikule osalisele AI toele."
+    },
+    {
+      "opilane": "3084263.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist ja serverite rollidest, eraldi andmekandja mainiti."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus QR-koodi ja lokaalsest dekrüpteerimisest, kuid võiks rõhutada rohkem privaatsuse säilitamist."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja eIDAS kõrget taset, kuid SplitKey tehnoloogia detailid puuduvad."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid näiteid ja nende tõenäosust."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned detailid võiksid olla täpsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja tehniliselt täpne, sisaldab isiklikke hinnanguid."
+    },
+    {
+      "opilane": "3084266.pdf",
+      "punktid": 0.75,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Kompaktne ja täpne kirjeldus, kuid võiks olla detailsem serverite rollide kohta."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus QR-koodi kehtivusajast ja lokaalsest dekrüpteerimisest, kuid võiks olla täpsem tehniliste detailide osas."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse eIDAS sertifitseerimist ja kõrget taset, kuid puuduvad tehnilised detailid SplitKey kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Hea võrdlus, kuid lühike ja võiks tuua välja rohkem konkreetseid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Hea töö! Vastused on kompaktsed ja täpsed, kuid võiksid olla detailsemad ja pikemad.",
+      "ai_toenaosus_protsent": 40,
+      "ai_pohjendus": "Tekst on väga kokkuvõtlik ja struktureeritud, mis viitab võimalikule AI toele, kuid sisaldab ka isiklikke hinnanguid."
+    },
+    {
+      "opilane": "3084272.pdf",
+      "punktid": 0.8,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus krüpteerimisest ja isikuandmete eemaldamisest, kuid puuduvad detailid miksimisest ja lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selge selgitus QR-koodi ja juhusliku koodi kasutamisest, kuid võiks olla täpsem lokaalsest dekrüpteerimisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Hea viide eIDAS määrusele ja SplitKey tehnoloogiale, sisaldab tsitaate ja allikaid."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid näiteid ründekohtadest."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab allikaviiteid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084283.pdf",
+      "punktid": 0.75,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus kahest serverist ja nende rollidest, kuid võiks olla täpsem miksimise ja krüptosüsteemi kohta."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selge selgitus, kuid võiks olla täpsem juhuarvu ja lokaalsest dekrüpteerimisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.15,
+          "pohjendus": "Mainitakse seadusmuudatust ja tehnilisi lahendusi, kuid puuduvad täpsed detailid Smart-ID turvalisuse kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Hea isiklik hinnang, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende analüüsi."
+        }
+      },
+      "tagasiside": "Hea töö! Põhimõtted on mõistetud, kuid mõned vastused võiksid olla tehniliselt detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst sisaldab isiklikke hinnanguid ja on selgelt struktureeritud, viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084299.pdf",
+      "punktid": 0.95,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga selge ja täpne kirjeldus kahe ümbriku süsteemist, võtmehoidjatest ja lävikrüptost."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Suurepärane selgitus QR-koodi, lokaalsest dekrüpteerimisest ja suhtlusründete märkimisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Väga täpne kirjeldus seadusmuudatusest ja QSCD tasemest, sisaldab tehnilisi detaile SplitKey kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Suurepärane analüüs riskide erinevustest ja skaleeritavusest, kuid võiks olla veidi konkreetsem lahenduste osas."
+        }
+      },
+      "tagasiside": "Suurepärane töö! Kõik küsimused said põhjalikud ja tehniliselt täpsed vastused. Väga hea arusaam e-valimiste turvalisusest.",
+      "ai_toenaosus_protsent": 20,
+      "ai_pohjendus": "Tekst on professionaalne ja tehniliselt täpne, kuid sisaldab isiklikke hinnanguid ja refleksiooni, mis on iseloomulik inimesele."
+    },
+    {
+      "opilane": "3084300.pdf",
+      "punktid": 0.9,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist, mixnetist ja lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Selge selgitus QR-koodi kasutamisest, krüpteeritud päringust ja lokaalsest võrdlusest."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse QES staatust ja jagatud võtit, kuid võiks olla täpsem tehniliste detailide osas."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Hea analüüs, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende tõenäosust."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084316.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga põhjalik kirjeldus kahe ümbriku süsteemist, miksimisest ja lävikrüptosüsteemist, sisaldab viiteid allikatele."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus QR-koodi ja lokaalsest dekrüpteerimisest, mainitakse korduvhääletamist, kuid võiks olla täpsem privaatsuse säilitamise kohta."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Detailne kirjeldus seadusmuudatusest ja Smart-ID turvalisusest, kuid võiks olla täpsem SplitKey tehnoloogia kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad, sisaldavad allikaviiteid. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab allikaviiteid, mis viitab inimese koostatud tööle, kuid võib olla osaline AI tugi."
+    },
+    {
+      "opilane": "3084332.pdf",
+      "punktid": 0.8,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus kahe ümbriku süsteemist ja serverite rollidest, kuid võiks olla täpsem miksimise ja lävikrüptosüsteemi kohta."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selge selgitus krüpteeritud hääle ja räsi võrdlemisest, kuid võiks olla täpsem lokaalsest dekrüpteerimisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja ECC krüptograafiat, kuid võiks olla täpsem SplitKey tehnoloogia kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Lühike, kuid selge hinnang turvalisusest, võiks olla konkreetsemaid näiteid ründekohtadest."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev, kuid mõned vastused võiksid olla detailsemad ja pikemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084333.pdf",
+      "punktid": 0.95,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga selge ja täpne kirjeldus kahe ümbriku süsteemist, homomorfse krüpteerimise mainimisega."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Suurepärane selgitus QR-koodi mehhanismist, lokaalsest dekrüpteerimisest ja ajapiirangust."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Väga täpne kirjeldus seadusmuudatusest ja SplitKey tehnoloogiast, sisaldab QSCD viiteid."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Suurepärane analüüs auditeeritavusest ja riskide erinevustest, kuid võiks olla veidi konkreetsem lahenduste osas."
+        }
+      },
+      "tagasiside": "Suurepärane töö! Kõik küsimused said põhjalikud ja tehniliselt väga täpsed vastused. Väga hea arusaam e-valimiste turvalisusest.",
+      "ai_toenaosus_protsent": 35,
+      "ai_pohjendus": "Tekst on väga professionaalne ja struktureeritud, kasutab keerukamaid termineid, mis võib viidata osalisele AI toele, kuid sisaldab ka isiklikke hinnanguid."
+    },
+    {
+      "opilane": "3084340.pdf",
+      "punktid": 0.8,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus kahe ümbriku süsteemist ja miksimisest, kuid võiks olla täpsem lävikrüptosüsteemi kohta."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selge selgitus QR-koodi ja lokaalsest dekrüpteerimisest, mainitakse ajapiirangut."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Hea viide seadusmuudatusele ja eIDAS tasemele, kuid võiks olla täpsem tehniliste detailide osas."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084345.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist ja serverite rollidest, eraldi andmekandja mainiti."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus QR-koodi ja lokaalsest dekrüpteerimisest, kuid võiks rõhutada rohkem privaatsuse säilitamist."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja eIDAS kõrget taset, kuid tehnilised detailid võiksid olla täpsemad."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid näiteid ründekohtadest ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084356.pdf",
+      "punktid": 0.65,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.15,
+          "pohjendus": "Põhiidee on olemas, kuid puuduvad detailid miksimisest, lävikrüptosüsteemist ja serverite täpsest rollist."
+        },
+        "kysimus_2": {
+          "punktid": 0.15,
+          "pohjendus": "Üldine mõistmine on olemas, kuid tehnilised detailid lokaalsest dekrüpteerimisest ja QR-koodi mehhanismist on puudulikud."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Hea viide seadusmuudatusele ja eIDAS tasemele, mainitakse SplitKey tehnoloogiat."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Huvitav isiklik arvamus Smart-ID kohta, kuid puuduvad konkreetsed ründekohad ja nende analüüs."
+        }
+      },
+      "tagasiside": "Hea algus! Põhimõtted on mõistetud, kuid vastused võiksid olla tehniliselt detailsemad ja täpsemad. Isiklik arvamus on hea, kuid peaks olema paremini põhjendatud.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst sisaldab isiklikke arvamusi ja on struktureeritud, kuid puudub tehniline sügavus, mis viitab inimese loodud tööle."
+    },
+    {
+      "opilane": "3084359.pdf",
+      "punktid": 0.85,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist, miksimisest ja ElGamal krüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Hea selgitus juhuarvu ja lokaalsest dekrüpteerimisest, kuid võiks olla täpsem QR-koodi mehhanismi kohta."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja eIDAS määrust, kuid puuduvad täpsed tehnilised detailid Smart-ID turvalisuse kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende tõenäosust."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084373.pdf",
+      "punktid": 0.75,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus kahe serveri süsteemist, kuid võiks olla täpsem miksimise ja lävikrüptosüsteemi kohta."
+        },
+        "kysimus_2": {
+          "punktid": 0.2,
+          "pohjendus": "Selge selgitus eraldiseisva seadme kasutamisest, kuid võiks olla täpsem lokaalsest dekrüpteerimisest ja QR-koodi mehhanismist."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Mainitakse seadusmuudatust ja kõrget usaldusväärsuse taset, kuid tehnilised detailid võiksid olla täpsemad."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Hea võrdlus, kuid võiks tuua välja rohkem konkreetseid ründekohti ja nende lahendusi."
+        }
+      },
+      "tagasiside": "Hea töö! Põhimõtted on mõistetud, kuid mõned vastused võiksid olla tehniliselt detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst sisaldab isiklikke hinnanguid ja on selgelt struktureeritud, viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084382.pdf",
+      "punktid": 0.95,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga selge ja täpne kirjeldus kahe ümbriku süsteemist, lävikrüptosüsteemist ja andmete eraldatusest."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Suurepärane selgitus QR-koodi mehhanismist, lokaalsest dekrüpteerimisest ja räsi võrdlemisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Väga täpne kirjeldus seadusmuudatusest, QES tasemest ja SplitKey tehnoloogiast."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Suurepärane analüüs individuaalsest kontrollitavusest ja riskide erinevustest, kuid võiks olla veidi konkreetsem lahenduste osas."
+        }
+      },
+      "tagasiside": "Suurepärane töö! Kõik küsimused said põhjalikud ja tehniliselt väga täpsed vastused. Väga hea arusaam e-valimiste turvalisusest.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on väga professionaalne ja struktureeritud, kuid sisaldab isiklikke hinnanguid ja refleksiooni, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084388.pdf",
+      "punktid": 0.9,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Täpne kirjeldus kahe ümbriku süsteemist, mixnet-lahendusest ja lävikrüptograafiast."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Selge selgitus QR-koodi, lokaalsest dekrüpteerimisest ja ajapiirangust."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Hea viide seadusmuudatusele ja turvalisuse tõstmisele, kuid võiks olla täpsem tehniliste detailide osas."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs auditeeritavusest ja riskide erinevustest, kuid võiks tuua välja rohkem konkreetseid näiteid."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 30,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084401.pdf",
+      "punktid": 0.95,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga selge ja täpne kirjeldus kahe ümbriku süsteemist, võtmehalduritest ja serverite rollidest."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Suurepärane selgitus QR-koodi mehhanismist, lokaalsest dekrüpteerimisest ja ajapiirangust."
+        },
+        "kysimus_3": {
+          "punktid": 0.25,
+          "pohjendus": "Väga täpne kirjeldus seadusmuudatusest, eIDAS määrusest ja SplitKey tehnoloogiast, sisaldab kriitilisi märkusi."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Suurepärane analüüs riskide erinevustest ja kontrollitavusest, kuid võiks olla veidi konkreetsem lahenduste osas."
+        }
+      },
+      "tagasiside": "Suurepärane töö! Kõik küsimused said põhjalikud ja tehniliselt väga täpsed vastused. Väga hea arusaam e-valimiste turvalisusest.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on väga professionaalne ja sisaldab kriitilisi märkusi, mis viitab inimese koostatud tööle."
+    },
+    {
+      "opilane": "3084403.pdf",
+      "punktid": 0.0,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_2": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_3": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        },
+        "kysimus_4": {
+          "punktid": 0.0,
+          "pohjendus": "Vastus puudub."
+        }
+      },
+      "tagasiside": "Töö puudub täielikult. Palun esita vastused kõikidele küsimustele.",
+      "ai_toenaosus_protsent": 0,
+      "ai_pohjendus": "Vastused puuduvad täielikult."
+    },
+    {
+      "opilane": "3084408.pdf",
+      "punktid": 0.6,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.15,
+          "pohjendus": "Põhiidee on olemas, kuid puuduvad detailid serverite rollidest, miksimisest ja lävikrüptosüsteemist."
+        },
+        "kysimus_2": {
+          "punktid": 0.15,
+          "pohjendus": "Üldine mõistmine on olemas, kuid tehnilised detailid lokaalsest dekrüpteerimisest ja QR-koodi mehhanismist on puudulikud."
+        },
+        "kysimus_3": {
+          "punktid": 0.15,
+          "pohjendus": "Mainitakse võtme jagamist, kuid puuduvad täpsed detailid eIDAS tasemest ja sertifitseerimisest."
+        },
+        "kysimus_4": {
+          "punktid": 0.15,
+          "pohjendus": "Üldine arutlus on olemas, kuid puuduvad konkreetsed ründekohad ja nende analüüs."
+        }
+      },
+      "tagasiside": "Põhimõisted on mõistetud, kuid vastused võiksid olla tehniliselt detailsemad ja täpsemad. Püüa tuua välja konkreetsemaid mehhanisme ja näiteid.",
+      "ai_toenaosus_protsent": 35,
+      "ai_pohjendus": "Tekst on lihtsustatud ja üldine, kuid sisaldab isiklikke hinnanguid, mis viitab osalisele AI kasutamisele või lihtsustatud käsitlusele."
+    },
+    {
+      "opilane": "3084409.pdf",
+      "punktid": 0.9,
+      "alamylesanded": {
+        "kysimus_1": {
+          "punktid": 0.25,
+          "pohjendus": "Väga selge ja täpne kirjeldus kahe ümbriku süsteemist, serverite rollidest ja analoogia kasutamine."
+        },
+        "kysimus_2": {
+          "punktid": 0.25,
+          "pohjendus": "Suurepärane selgitus QR-koodi mehhanismist, lokaalsest kontrollimisest ja pahavara avastamisest."
+        },
+        "kysimus_3": {
+          "punktid": 0.2,
+          "pohjendus": "Hea kirjeldus QSCD nõuetest ja SplitKey tehnoloogiast, kuid võiks olla täpsem eIDAS taseme kohta."
+        },
+        "kysimus_4": {
+          "punktid": 0.2,
+          "pohjendus": "Tasakaalustatud analüüs riskide erinevustest ja auditeeritavusest, kuid võiks tuua välja rohkem konkreetseid näiteid."
+        }
+      },
+      "tagasiside": "Väga hea töö! Tehniline mõistmine on tugev ja vastused on sisukad, kasutades häid analoogiaid. Mõned kohad võiksid olla veidi detailsemad.",
+      "ai_toenaosus_protsent": 25,
+      "ai_pohjendus": "Tekst on hästi struktureeritud ja sisaldab analoogiaid ning isiklikke hinnanguid, mis viitab inimese koostatud tööle."
+    }
+  ]
+}
