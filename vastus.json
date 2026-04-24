@@ -1,29 +1,29 @@
 {
   "hindamine": [
     {
-      "opilane": "",
+      "opilane": "Nimi",
       "punktid": 1,
       "alamylesanded":{
         "kysimus_1": {
           "punktid": 0.25,
-          "pohjendus": ""
+          "pohjendus": "Vead"
         },
         "kysimus_2": {
           "punktid": 0.25,
-          "pohjendus": ""
+          "pohjendus": "Vead"
         },
         "kysimus_3": {
           "punktid": 0.25,
-          "pohjendus": ""
+          "pohjendus": "Vead"
         },
         "kysimus_4": {
           "punktid": 0.25,
-          "pohjendus": ""
+          "pohjendus": "Vead"
         }
       },
-      "tagasiside" : "",
+      "tagasiside" : "Yldine tagasiside",
       "ai_toenaosus_protsent": 0,
-      "ai_pohjendus": ""
+      "ai_pohjendus": "Protsendi toenaosuse pohjendus"
     }
   ]
 }

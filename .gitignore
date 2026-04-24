@@ -29,3 +29,5 @@ Thumbs.db
 /submissions/
 *.json
 !vastus.json
+apirequest.pdf
+tulemused_gpt51.json.batch2.raw
