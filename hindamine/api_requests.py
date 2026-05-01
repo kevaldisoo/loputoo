@@ -6,7 +6,7 @@ load_dotenv()
 import os
 import json
 
-with open("test.json", "r", encoding="utf-8") as f:
+with open("../tulemused/test.json", "r", encoding="utf-8") as f:
     opilased = json.load(f)
 
 vastuse_formaat = '''{

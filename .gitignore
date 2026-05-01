@@ -28,6 +28,6 @@ Thumbs.db
 /opilaste_tood/
 /submissions/
 *.json
-!vastus.json
-apirequest.pdf
-tulemused_gpt51.json.batch2.raw
+!hindamine/vastus.json
+hindamine/apirequest.pdf
+tulemused/tulemused_gpt51.json.batch2.raw

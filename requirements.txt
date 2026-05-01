@@ -2,3 +2,5 @@ openrouter
 pdfplumber
 selenium
 python-dotenv
+openpyxl
+requests

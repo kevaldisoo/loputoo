@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+import json
+import os
 from time import sleep
 
+from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 #from selenium.webdriver.chrome.options import Options
@@ -11,23 +14,27 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertPresentException
-download_dir = "/home/user/Downloads/selenium/"
+
+load_dotenv()
+
+with open("tulemused/tulemused_parim.json", encoding="utf-8") as f:
+    tulemused = {e["opilane"]: e["punktid"] for e in json.load(f)["hindamine"]}
+download_dir = r"C:\Users\karle\Downloads\selenium"
 options = webdriver.ChromeOptions()
 prefs = {"download.default_directory" : download_dir}
 #options.add_argument("--headless")
-options.add_argument("user-data-dir=selenium")
+options.add_argument(r"user-data-dir=C:\Users\karle\selenium-profile")
 options.add_experimental_option("prefs",prefs)
 options.add_experimental_option("detach", True)
-service = Service(executable_path="/snap/bin/chromium.chromedriver")
 browser = None
 
 ut_moodle_auth = "https://moodle.ut.ee/auth/oidc/"
-ut_user = "..."
-ut_pass = "..."
+ut_user = os.getenv("UT_USER")
+ut_pass = os.getenv("UT_PASS")
 
 def browser_init():
     global browser
-    browser = webdriver.Chrome(service=service, options=options)
+    browser = webdriver.Chrome(options=options)
     browser.set_window_size(1200, 1000)
     browser.set_page_load_timeout(1800)
 
@@ -36,7 +43,7 @@ def login_microsoftonline():
 
     # check if "pick an account" option available (login session available)
     button = browser.find_element(By.XPATH, ".//div[@class='table']")
-    if button and 'arnis@ut.ee' in button.text:
+    if button and 'valdisoo@ut.ee' in button.text:
         button.click()
         sleep(2)
     else:
@@ -81,6 +88,7 @@ def open_moodle_ut():
     sleep(2)
 
     login_microsoftonline()
+    open_moodle_course("https://moodle.ut.ee/course/view.php?id=11380")
 
 
 def open_moodle_course(ut_moodle):
@@ -120,3 +128,5 @@ def moodle_grade_attempt_question(attempt_id, nr, score, feedback):
     WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "btn-close")))
     return
 
+if __name__ == "__main__":
+    open_moodle_ut()

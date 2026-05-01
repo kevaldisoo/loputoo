@@ -6,8 +6,8 @@ import os
 import shutil
 
 # Directory containing student submission subdirectories
-SUBMISSIONS_DIR = "submissions"
-OUTPUT_DIR = "opilaste_tood"
+SUBMISSIONS_DIR = "../submissions"
+OUTPUT_DIR = "../opilaste_tood"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -60,5 +60,5 @@ for pdf_path in glob.glob(os.path.join(OUTPUT_DIR, "*.pdf")):
     student_id = os.path.splitext(os.path.basename(pdf_path))[0]
     result[int(student_id)] = matched_pages
 
-with open("test.json", "w", encoding="utf-8") as f:
+with open("../tulemused/test.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
