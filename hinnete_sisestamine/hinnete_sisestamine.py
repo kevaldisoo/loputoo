@@ -17,7 +17,7 @@ COMMON_MESSAGE = """
 
 MAX_GRADE = 1.0
 
-DRY_RUN = False  # ← set to False to actually push grades
+DRY_RUN = True  # ← set to False to actually push grades
 
 
 def call(function, **params):
