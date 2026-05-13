@@ -14,6 +14,7 @@ loputoo/
 ├── hinnete_sisestamine/     # Hinnete ettevalmistamine ja Moodle'i integratsioon
 ├── submissions/             # Üliõpilaste originaalülesanded Moodle'ist (PDF, CDOC, ASICE)
 ├── opilaste_tood/           # Eraldatud PDF-failid (organiseeritud esituse ID järgi)
+├── promptid/                # Esialgsel testimisel ning suuremahulisel hindamisel kasutatud promptid
 ├── tulemused/               # Hindamistulemused (JSON ja Excel)
 ├── requirements.txt         # Pythoni sõltuvused
 └── .env                     # Keskkonnamuutujad (API võtmed)
@@ -47,6 +48,9 @@ Moodle'ist allalaaditud üliõpilaste originaalsed ülesandefailid (143+ alamkau
 
 ### `opilaste_tood/`
 `pdf_json.py` poolt eraldatud ja organiseeritud PDF-failid — üks fail üliõpilase kohta.
+
+### `promptid/`
+Kõik bakalaureusetöös kasutatud promptid .md failide kujul.
 
 ### `tulemused/`
 Kõik hindamistulemused:
